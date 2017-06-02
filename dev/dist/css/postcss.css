@@ -1,0 +1,68 @@
+.search, .notice {
+	background: green;
+}
+
+.search {
+	padding-left: 16px;
+}
+
+.search::after {
+		content: "";
+		background-url: url(/icons/search.png);
+}
+
+.menu {
+	background: rgb(5, 95, 204);
+	width: calc(4 * 200px);
+}
+
+.col-10 { width: 10%; }
+
+.col-20 { width: 20%; }
+
+.col-30 { width: 30%; }
+
+.icon-foo {
+		background: url(icons/foo.png);
+	}
+
+.icon-bar {
+		background: url(icons/bar.png);
+	}
+
+.icon-baz {
+		background: url(icons/baz.png);
+	}
+#test{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.button.twitter {
+        background-image: url('img/twitter.png');
+        background-color: blue;
+    width: 3rem;
+    }
+
+.button.youtube {
+        background-image: url('img/youtube.png');
+        background-color: red;
+    width: 4rem;
+    }
+.blue_button, .red_button {
+    border-radius: 0.5rem;
+    padding: 1em;
+    border-width: 0.0625rem;
+    border-style: solid;
+}
+.blue_button {
+    border-color: #2F74D1;
+    background-color: #3B8EFF;
+}
+
+.red_button {
+    border-color: #C41A1E;
+    background-color: #FF2025;
+}
+/*# sourceMappingURL=postcss.css.map */
